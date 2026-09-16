@@ -159,11 +159,9 @@ php -l includes/functions.php
 
 ## Changelog
 
-### [Unreleased]
-
 - Documentation du projet ajoutée dans `README.md`.
 
-### [1.0.0] - 2026-09-15
+### [1.0.5] - 2026-09-15
 
 - Création de l'interface web de génération de mots de passe.
 - Ajout de la génération de caractères aléatoires avec `random_int()`.
