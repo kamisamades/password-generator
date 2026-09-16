@@ -53,7 +53,7 @@ function generateWords($count,$glue='-') {
         $count = min($count, count($wordList)); // Limit the count to the number of available words
         for ($i = 0; $i < $count; $i++) {
             $randomIndex = random_int(0, count($wordList) - 1);
-            $words[] = $wordList[$randomIndex];
+            $words[] = utf8_encode($wordList[$randomIndex]);
             unset($wordList[$randomIndex]); // Remove the selected word to avoid duplicates
             $wordList = array_values($wordList); // Reindex the array after unsetting
         }

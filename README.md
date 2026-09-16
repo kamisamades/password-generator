@@ -161,6 +161,10 @@ php -l includes/functions.php
 
 - Documentation du projet ajoutée dans `README.md`.
 
+### [1.0.6] - 2026-09-16
+
+- Correction sur l'encodage des mots du dictionnaire
+
 ### [1.0.5] - 2026-09-15
 
 - Création de l'interface web de génération de mots de passe.

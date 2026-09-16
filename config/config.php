@@ -1,7 +1,7 @@
 <?php
 
 define('APP_NAME', 'Password Generator');
-define('APP_VERSION', '1.0.5');
+define('APP_VERSION', '1.0.6');
 define('APP_AUTHOR', 'Maurice LECON');
 define('APP_DESCRIPTION', 'A simple password generator application.');
 define('APP_LICENSE', 'MIT License');
