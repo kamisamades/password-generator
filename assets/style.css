@@ -1,0 +1,57 @@
+/* Style for Password Generator */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+body a {
+    color: #ff9d00;
+    text-decoration: none;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+#logo {
+    width: 100px;
+    aspect-ratio: 1 / 1;
+    margin: 0 auto 1rem;
+    background: transparent url('../assets/password-generator-transparent.png') no-repeat center center;
+    background-size: contain;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.invisible {
+    display: none;
+}
+
+#navigation {
+    padding: 1rem;
+    text-align: center;
+}
+
+#navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation a {
+    display: inline;
+    margin: 0 1rem;
+    color: #ff9d00;
+}
